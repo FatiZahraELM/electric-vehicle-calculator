@@ -1,0 +1,52 @@
+.vehicle-diagram {
+  position: relative;
+  height: 150px;
+}
+
+.vehicle-body {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 80px;
+  background-color: #007bff;
+  border-radius: 20px 20px 0 0;
+}
+
+.vehicle-window {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 40px;
+  background-color: #b3d7ff;
+  border-radius: 10px;
+}
+
+.vehicle-wheel {
+  position: absolute;
+  bottom: -15px;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.vehicle-wheel.front {
+  left: 30px;
+}
+
+.vehicle-wheel.back {
+  right: 30px;
+}
+
+.vehicle-specs {
+  margin-top: 20px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.vehicle-specs div {
+  margin-bottom: 5px;
+}

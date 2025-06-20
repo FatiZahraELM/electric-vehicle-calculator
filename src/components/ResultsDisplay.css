@@ -1,0 +1,72 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.fwd-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.annotation {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  max-width: 180px;
+}
+
+/* Positionnement des blocs (à adapter à votre image) */
+.annotation.moteur {
+  top: 15%;
+  left: 8%;
+}
+
+.annotation.batterie {
+  bottom: 10%;
+  left: 10%;
+}
+
+.annotation.transmission {
+  top: 15%;
+  right: 10%;
+}
+
+.recommendation-box {
+  margin-top: 20px;
+}
+/* src/components/ResultsDisplay.css */
+.thermal-graph {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+}
+
+.thermal-bars {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.thermal-bar-container {
+  flex: 1;
+  text-align: center;
+}
+
+.thermal-bar {
+  height: 10px;
+  margin: 0.5rem 0;
+}
+
+.thermal-bar-label {
+  font-size: 0.8rem;
+}
+
+.thermal-bar-value {
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
